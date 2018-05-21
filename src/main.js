@@ -25,3 +25,16 @@ function mediaDetect(){
         console.log("what do you spend your money on?")
     }
 }
+
+function whatTimeIsIt(){
+    var death = new Date();
+    
+    function isPastNoon(){
+        if (death.getHours > 12) {
+            death.getHours()-12;
+        } else {
+            death.getHours();
+        }}
+    console.log(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
+
+}
