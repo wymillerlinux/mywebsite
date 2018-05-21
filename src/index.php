@@ -18,7 +18,7 @@
                         <div class="main-section">
                             <div class="main-background">
                                 <h2 class="main-background-header">Hi, I'm Wyatt Miller!</h2>
-                                <p class="main-background-text">I am a web designer, a programmer, a gamer, a chillax-er, but most importantly, I am a go-getter.</p><br>
+                                <p class="main-background-text">I am a web designer, a programmer, a gamer, but most importantly, I am a go-getter.</p><br>
                                 <p class="main-background-text">There's nothing much here on the home page but if you click or tap on the buttons below my name, you can view all sorts of things about yours truly. Go explore!</p>
                                 <p class="main-background-text"></p>
                             </div>

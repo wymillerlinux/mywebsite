@@ -16,8 +16,8 @@
             </div>
             <nav class="nav nav-pills nav-justified">
                 <a class="nav-item nav-link" href="/">Home</a>
-                <a class="nav-item nav-link" href="assets/resume.pdf">About</a>
-                <a class="nav-item nav-link" href="https://github.com/wymillerlinux?tab=repositories">Projects</a>
+                <a class="nav-item nav-link" href="assets/resume.pdf" target="_blank">About</a>
+                <a class="nav-item nav-link" href="https://github.com/wymillerlinux?tab=repositories" target="_blank">Projects</a>
                 <a class="nav-item nav-link" href="mailto:wjmiller2016@gmail.com">Contact</a>
             </nav>
         </div>
