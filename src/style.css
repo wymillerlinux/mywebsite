@@ -31,9 +31,10 @@ a:hover {color: seashell !important;}
 .about-background p {position: relative; font-size: 20px; color: white;}
 
 .nav-pills .nav-link {font-size: 24px; background-color: #f08080 !important; border-radius: 0 !important; border-style: solid; border-width: 2px; border-color: black;}
-.nav-link a {color: white; text-decoration-color: white;}
-.nav-pills .nav-link a:hover {text-decoration-color: white;}
-a.nav-item.nav-link {font-family: "Ubuntu", cursive; font-size: 30px;}
+.nav-link a {font-family: "Oswald", cursive; font-size: 30px; color: white; text-decoration-color: white;}
+.nav-link a:hover {background-color: #efa0a0 !important; text-decoration-color: white;}
+a:hover.nav-item.nav-link {background-color: #efa0a0 !important; text-decoration-color: white;}
+a.nav-item.nav-link {font-family: "Oswald", cursive; font-size: 30px;}
 
 /*Media queries*/
 @media (min-width: 768px){

@@ -8,8 +8,8 @@ Licensed by the MIT
 new Twitch.Embed("twitch-embed", {
     theme: "dark",
     chat: "mobile",
-    width: "80%",
-    height: "50%",
+    width: "100%",
+    height: "100%",
     channel: "wymillerlinux"
 });
 
