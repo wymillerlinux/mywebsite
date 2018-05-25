@@ -34,7 +34,8 @@ function whatTimeIsIt(){
             death.getHours()-12;
         } else {
             death.getHours();
-        }}
-    console.log(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
+        }
+    }
 
+    console.log(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
 }

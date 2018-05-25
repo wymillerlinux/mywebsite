@@ -14,6 +14,27 @@ new Twitch.Embed("twitch-embed", {
 });
 
 var follow = document.getElementById("twitch-follow");
-follow.addEventListener('click', function(user){
+follow.addEventListener("click", function() {
     //code goes here
 }, false);
+
+/*
+var a = 42;
+var b = Number(a);
+console.log(a);
+console.log(b); 
+
+function foo(){
+    this.bar = bar;
+    this.foo = foo;
+    console.log(foo, bar);
+}
+
+var obj = {
+    foo: "bar",
+    bar: "foo"
+};
+
+foo();
+new foo();
+*/

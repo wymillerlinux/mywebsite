@@ -1,4 +1,3 @@
-<html>
 <head>
     <title>Wyatt J. Miller - Home</title>
     <meta charset="utf-8" />
@@ -13,7 +12,7 @@
     <script src="analytics.js"></script>
 </head>
 <body>
-    <?php require "header.php"; ?>
+    <?php require_once "header.php"; ?>
                     <div class="col-xs-12">
                         <div class="main-section">
                             <div class="main-background">
@@ -24,6 +23,5 @@
                             </div>
                         </div>
                     </div>
-    <?php require "footer.php"; ?>
+    <?php require_once "footer.php"; ?>
 </body>
-</html>
