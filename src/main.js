@@ -9,33 +9,65 @@ function mediaDetect(){
     var ScreenWidth = window.screen.width;
     var ScreenHeight = window.screen.height;
 
-    console.log("width: " + ScreenWidth);
-    console.log("height: " + ScreenHeight); 
+    print("width: " + ScreenWidth);
+    print("height: " + ScreenHeight); 
     if (ScreenWidth < 768){
-       console.log("user has a phone!");
+        print("user has a phone!");
     } else if (ScreenWidth < 992) {
-        console.log("user has a tablet!");
+        print("user has a tablet!");
     } else if (ScreenWidth < 1200) {
-        console.log("user has a desktop!");
+        print("user has a desktop!");
     } else if (ScreenWidth < 2048) {
-        console.log("user has a hd display!");
+        print("user has a hd display!");
     } else if (ScreenWidth < 4096) {
-        console.log("user has a display greater than fhd!");
+        print("user has a display greater than fhd!");
     } else {
-        console.log("what do you spend your money on?")
+        print("what do you spend your money on?");
     }
 }
 
 function whatTimeIsIt(){
     var death = new Date();
-    
+    var timezone = death.getTimezoneOffset();
+    var getHoursOffset;
+    var getMinutesOffset;
+    var getSecondsOffset;
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition();
+    } else {
+        print("Geolocation is not supported. Update your shit.");
+    }
+
+    function timezoneOffset(zone){
+        var offset = Math.abs(zone/60);
+        
+        getHoursOffset = death.getHours + offset;
+        getMinutesOffset = death.getMinutes + offset;
+        getSecondsOffset = death.getSeconds + offset;
+
+        return getHoursOffset, getMinutesOffset, getSecondsOffset;
+    }
+
     function isPastNoon(){
-        if (death.getHours > 12) {
-            death.getHours()-12;
+        if (death.getHours() > 12) {
+            print(death.getHours() - 12);
         } else {
-            death.getHours();
+            print(death.getHours());
         }
     }
 
-    console.log(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
+    //timezoneOffset(timezone);
+    console.log(timezone);
+    print(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
+    print(isPastNoon(), getHoursOffset(), getMinutesOffset(), getSecondsOffset());
+
 }
+
+function backToTop(){
+    // code goes here
+    // this function has a button where js moves the page/screen back to the top
+}
+
+mediaDetect();
+whatTimeIsIt();

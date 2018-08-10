@@ -1,7 +1,6 @@
 {
     "env": {
-        "browser": true,
-        "es6": true
+        "browser": true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -20,6 +19,12 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-undef": [
+            "warn"
+        ],
+        "no-unused-vars": [
+            "warn"
         ]
     }
 }
