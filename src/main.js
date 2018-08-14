@@ -3,7 +3,7 @@ main.js, for all global functions throughout the site
 Created by Wyatt J. Miller, published by Entourage Solutions
 
 Hey there, nice to see you! There's nothing here so why don't you fuck off??
-*/
+*/  
 
 function mediaDetect(){
     var ScreenWidth = window.screen.width;
@@ -39,12 +39,13 @@ function whatTimeIsIt(){
         print("Geolocation is not supported. Update your shit.");
     }
 
+    // working on getting user location and setting timezone to said location
     function timezoneOffset(zone){
         var offset = Math.abs(zone/60);
         
-        getHoursOffset = death.getHours + offset;
-        getMinutesOffset = death.getMinutes + offset;
-        getSecondsOffset = death.getSeconds + offset;
+        var getHoursOffset = death.getHours + offset;
+        var getMinutesOffset = death.getMinutes + offset;
+        var getSecondsOffset = death.getSeconds + offset;
 
         return getHoursOffset, getMinutesOffset, getSecondsOffset;
     }
