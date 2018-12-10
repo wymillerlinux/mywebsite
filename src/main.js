@@ -70,5 +70,5 @@ function backToTop(){
     // this function has a button where js moves the page/screen back to the top
 }
 
-mediaDetect();
-whatTimeIsIt();
+//mediaDetect();
+//whatTimeIsIt();
