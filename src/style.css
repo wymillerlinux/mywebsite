@@ -17,7 +17,7 @@ a:hover {color: seashell !important;}
 .header-title {color: whitesmoke;}
 .header-title h1 {font-family: "Pacifico", cursive; font-size: 72px; text-align: center; margin: 0; padding: 35px;}
 
-.footer {font-family: "Oswald", sans-serif; background-color: #4c4e51; padding: 20px;}
+.footer {font-family: "Oswald", sans-serif; background-color: #4c4e51; padding: 20px; position: sticky; width: 100%; bottom: 0;}
 .footer p {font-size: 20px; color: white; text-align: center; padding: 5px;}
 .footer a {color: white; text-decoration-color: white; text-decoration-line: none;}
 .footer a:hover {color: white;}
@@ -26,6 +26,9 @@ a:hover {color: seashell !important;}
 .main-background {border-radius: 25px; padding: 25px;}
 .main-background h2 {font-family: "Kavivanar", cursive; position: relative; font-size: 54px; color: white; text-align: center;}
 .main-background p {font-family: "Kavivanar", cursive; position: relative; font-size: 36px; color: white; text-align: center;}
+.main-background-text a {
+    color: #ff9999 !important;
+}
 
 .about-background h2 {position: relative; font-size: 24px; color: white;}
 .about-background p {position: relative; font-size: 20px; color: white;}
@@ -39,12 +42,12 @@ a.nav-item.nav-link {font-family: "Oswald", cursive; font-size: 30px;}
 /*Media queries*/
 @media (min-width: 768px){
     .main-section {padding: 50px 10px;}
-    .main-section h2 {text-align: left;}
+    
 }
 @media (min-width: 992px){
     .main-section {padding: 70px 10px;}
 }
 @media (min-width: 1200px){
-    .main-section {padding: 90px 200px;}
+    .main-section {padding: 124px 200px;}
     .main-section h2 {text-align: center;}
 }

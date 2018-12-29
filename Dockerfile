@@ -1,5 +1,5 @@
 # wyattjmiller.com Dockerfile
-# Created by Wyatt J. Miller, published by Entourage Solutions
+# Created by Wyatt J. Miller, published by Miller Web Solutions
 # Licensed by the MIT
 #
 # Copying files in the dockerfile is kind of a mess. Actually not really.

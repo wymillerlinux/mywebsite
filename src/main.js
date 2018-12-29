@@ -26,49 +26,16 @@ function mediaDetect(){
     }
 }
 
-function whatTimeIsIt(){
-    var death = new Date();
-    var timezone = death.getTimezoneOffset();
-    var getHoursOffset;
-    var getMinutesOffset;
-    var getSecondsOffset;
-
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition();
-    } else {
-        print("Geolocation is not supported. Update your shit.");
-    }
-
-    // working on getting user location and setting timezone to said location
-    function timezoneOffset(zone){
-        var offset = Math.abs(zone/60);
-        
-        var getHoursOffset = death.getHours + offset;
-        var getMinutesOffset = death.getMinutes + offset;
-        var getSecondsOffset = death.getSeconds + offset;
-
-        return getHoursOffset, getMinutesOffset, getSecondsOffset;
-    }
-
-    function isPastNoon(){
-        if (death.getHours() > 12) {
-            print(death.getHours() - 12);
-        } else {
-            print(death.getHours());
-        }
-    }
-
-    //timezoneOffset(timezone);
-    console.log(timezone);
-    print(isPastNoon(), ":", death.getMinutes(), ":", death.getSeconds());
-    print(isPastNoon(), getHoursOffset(), getMinutesOffset(), getSecondsOffset());
-
+function whatTimeIsIt() {
+    console.log(Intl.DateTimeFormat().resolvedOptions().timeZone);
 }
-
 function backToTop(){
     // code goes here
     // this function has a button where js moves the page/screen back to the top
 }
 
 //mediaDetect();
-//whatTimeIsIt();
+var time = document.getElementById("load");
+time.addEventListener("load", whatTimeIsIt, false);
+
+whatTimeIsIt();

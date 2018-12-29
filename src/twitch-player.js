@@ -13,16 +13,6 @@ new Twitch.Embed("twitch-embed", {
     channel: "wymillerlinux"
 });
 
-var follow = document.getElementById("twitch-follow");
-<<<<<<< HEAD
-follow.addEventListener("click", function() {
-    //code goes here
-=======
-follow.addEventListener("click", function(user){
-    this.user = user;
->>>>>>> 05b1d079479a667e15c6dcf18f1eb132b19c3849
-}, false);
-
 /*
 var a = 42;
 var b = Number(a);

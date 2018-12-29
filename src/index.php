@@ -17,9 +17,9 @@
                     <div class="col-xs-12">
                         <div class="main-section">
                             <div class="main-background">
-                                <h2 class="main-background-header">Hello there!</h2>
-                                <p class="main-background-text">I am a web designer, a programmer, a gamer, but most importantly, I am a go-getter.</p><br>
-                                <p class="main-background-text">There's nothing much here on the home page but if you click or tap on the buttons below my name, you can view all sorts of things about yours truly. Go explore!</p>
+                                <h2 class="main-background-header">Hello there, people!</h2>
+                                <p class="main-background-text">I write code. I do nothing special.</p><br>
+                                <p class="main-background-text">There's nothing much here except my <a href="https://github.com/wymillerlinux/DeskHubSharp" target="_blank">latest project</a> that I worked on. It's a GitHub client tool for viewing repositories once a user is searched.</p>
                                 <p class="main-background-text"></p>
                             </div>
                         </div>
