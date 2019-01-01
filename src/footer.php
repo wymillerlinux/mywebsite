@@ -14,7 +14,6 @@
                         <a id=twitter href="https://twitter.com/wymillerlinux"><i class="fab fa-twitter"></i></a>
                         <a id=twitch href="https://twitch.tv/wymillerlinux"><i class="fab fa-twitch"></i></a>
                         <a href="https://github.com/wymillerlinux"><i class="fab fa-github"></i></a>
-                        <a href="https://plus.google.com/+WyattMillerLinux"><i class="fab fa-google-plus"></i></a>
                     </p>
                     <p>&copy <?php echo date("Y"); ?> Miller Web Solutions, Wyatt J. Miller - Licensed by the <a href="https://opensource.org/licenses/MIT">MIT</a></p>
                 </div>

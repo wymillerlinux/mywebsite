@@ -23,8 +23,27 @@ a:hover {color: seashell !important;}
 .footer a:hover {color: white;}
 
 .main-section {position: relative; background-size: 100%; background-image: url("tracks.jpg"); background-color: black; padding: 30px 5px;}
+.main-section-about {
+    position: relative;
+    background-size: 100%;
+    background-image: url("tracks.jpg");
+    background-color: black;
+    padding: 30px 5px;
+}
 .main-background {border-radius: 25px; padding: 25px;}
 .main-background h2 {font-family: "Kavivanar", cursive; position: relative; font-size: 54px; color: white; text-align: center;}
+.main-background h3 {
+    font-family: "Kavivanar", cursive;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.main-background h4 {
+    font-family: "Kavivanar", cursive;
+    position: relative;
+    color: white;
+    text-align: center;
+}
 .main-background p {font-family: "Kavivanar", cursive; position: relative; font-size: 36px; color: white; text-align: center;}
 .main-background-text a {
     color: #ff9999 !important;
@@ -42,12 +61,15 @@ a.nav-item.nav-link {font-family: "Oswald", cursive; font-size: 30px;}
 /*Media queries*/
 @media (min-width: 768px){
     .main-section {padding: 50px 10px;}
-    
+    .main-section-about {padding: 30px 5px;}
 }
 @media (min-width: 992px){
     .main-section {padding: 70px 10px;}
+    .main-section-about {padding: 50px 10px;}
 }
 @media (min-width: 1200px){
     .main-section {padding: 124px 200px;}
     .main-section h2 {text-align: center;}
+    .main-section h3 {text-align: center;}
+    .main-section-about {padding: 90px 125px;}
 }

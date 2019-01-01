@@ -16,9 +16,10 @@
                         <div class="main-section">
                             <div class="main-background">
                                 <h2 id="time"></h2>
-                                <p class="main-background-text">I write code. I do nothing special.</p><br>
+                                <h2 id="new-year">Happy New Year! 2019!</h3><br>
+                                <p class="main-background-text">I write code. I do some other cool stuff too.</p><br>
                                 <p class="main-background-text">There's nothing much here except my <a href="https://github.com/wymillerlinux/DeskHubSharp" target="_blank">latest project</a> that I worked on. It's a GitHub client tool for viewing repositories once a user is searched.</p>
-                                <p class="main-background-text"></p>
+                                <!--p class="main-background-text"></p-->
                             </div>
                         </div>
                     </div>
