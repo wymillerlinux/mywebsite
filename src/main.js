@@ -5,6 +5,9 @@ Created by Wyatt J. Miller, published by Entourage Solutions
 Hey there, nice to see you! There's nothing here so why don't you fuck off??
 */  
 
+var elTime = document.getElementById("time");
+var time = new Date().getHours();
+
 function mediaDetect(){
     var ScreenWidth = window.screen.width;
     var ScreenHeight = window.screen.height;
@@ -26,16 +29,24 @@ function mediaDetect(){
     }
 }
 
-function whatTimeIsIt() {
-    console.log(Intl.DateTimeFormat().resolvedOptions().timeZone);
-}
 function backToTop(){
     // code goes here
     // this function has a button where js moves the page/screen back to the top
 }
 
-//mediaDetect();
-var time = document.getElementById("load");
-time.addEventListener("load", whatTimeIsIt, false);
+var x = "Good morning, people!";
+var y = "Good afternoon, people!";
+var z = "Good evening, people!";
+var a = "Hello!";
 
-whatTimeIsIt();
+if (time < 12) {
+    elTime.innerHTML = x;
+} else if (time < 18) {
+    elTime.innerHTML = y;
+} else if (time < 23) {
+    elTime.innerHTML = z;
+} else {
+    elTime.innerHTML = a;
+}
+
+//whatTimeIsIt();
