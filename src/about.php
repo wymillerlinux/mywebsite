@@ -19,7 +19,7 @@
                             <h4 class="main-background-text">December 2018 - <a href="https://github.com/wymillerlinux/DeskHubSharp">DeskHubSharp</a> was released!</h4>
                             <h4 class="main-background-text">September 2018 - Started Miller Web Solutions</h4>
                             <h4 class="main-background-text">June 2018 - This <a href="https://github.com/wymillerlinux/mywebsite">website</a> was released!</h4>
-                            <h4 class="main-background-text">May 2018 - Recieved Assitant Developer certificate from Northwestern Michigan College</h4>
+                            <h4 class="main-background-text">May 2018 - Recieved Assistant Developer certificate from Northwestern Michigan College</h4>
                             <h4 class="main-background-text">May 2017 - <a href="https://github.com/wymillerlinux/lftpd">lftpd</a> was released!</h4>
                             <h4 class="main-background-text">April 2017 - <a href="https://github.com/wymillerlinux/mtikrtr">mtikrtr</a> was released!</h4>
                             <h4 class="main-background-text">December 2016 - <a href="https://github.com/jtperreault/political_ties">Political Ties</a> was started!</h4>
