@@ -43,7 +43,7 @@ if (time < 12) {
     elTime.innerHTML = x;
 } else if (time < 18) {
     elTime.innerHTML = y;
-} else if (time < 23) {
+} else if (time < 24) {
     elTime.innerHTML = z;
 } else {
     elTime.innerHTML = a;
