@@ -16,7 +16,7 @@
             <nav class="nav nav-pills nav-justified">
                 <a class="nav-item nav-link" href="/">Home</a>
                 <a class="nav-item nav-link" href="about.php">About</a>
-                <a class="nav-item nav-link" href="comingsoon.php">Blog</a>
+                <a class="nav-item nav-link" href="blog/_site">Blog</a>
                 <a class="nav-item nav-link" href="https://github.com/wymillerlinux?tab=repositories" target="_blank">Projects</a>
                 <a class="nav-item nav-link" href="mailto:wjmiller2016@gmail.com">Contact</a>
             </nav>
