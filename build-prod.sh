@@ -4,7 +4,6 @@
 # Used in production ONLY!
 #
 # Must be used in the site's root directory
-# TODO: Cron job?
 
 cd ..
 docker-compose down
@@ -12,9 +11,9 @@ docker image rm -f wyattjmiller.com
 cd mywebsite
 git pull
 cd src/blog
+bundle update
 jekyll build
 cd ../..
 docker build -t wyattjmiller.com .
 cd ..
 docker-compose up -d
-cd mywebiste

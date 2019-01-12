@@ -17,8 +17,8 @@ title: The Dev Cave
 email: wjmiller2016@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to The Dev Cave, a blog I started to talk about my feelings
-  about technology, computing, programming and it's tooling. I may talk about
-  other things too.  
+  about technology, computing, programming and other related concepts. I may talk about
+  other things too.
 baseurl: "/blog/_site" # the subpath of your site, e.g. /blog
 url: "https://wyattjmiller.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wymillerlinux

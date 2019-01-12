@@ -7,6 +7,7 @@
 # Must be used in the site's root directory
 
 cd src/blog
+bundle update
 jekyll build
 cd ../..
 sudo docker build -t mywebsite .
