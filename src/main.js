@@ -49,4 +49,4 @@ if (time < 12) {
     elTime.innerHTML = a;
 }
 
-//whatTimeIsIt();
+console.log("Anyone that gets the version codename, email me by clicking the contact button.");

@@ -7,7 +7,4 @@
 FROM php:7.0-apache
 RUN /bin/bash -c "cd /var/www/html && mkdir assets && mkdir css && mkdir img && mkdir webfonts"
 COPY src/ /var/www/html
-COPY img/ /var/www/html/img
-COPY css/ /var/www/html/css
-COPY webfonts/ /var/www/html/webfonts
 EXPOSE 80

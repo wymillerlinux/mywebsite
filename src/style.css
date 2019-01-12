@@ -16,6 +16,7 @@ a:hover {color: seashell !important;}
 .header {background-color: #4c4e51;}
 .header-title {color: whitesmoke;}
 .header-title h1 {font-family: "Pacifico", cursive; font-size: 72px; text-align: center; margin: 0; padding: 35px;}
+.header-title p {font-size: 10px; text-align: right; margin: 1px; color: #63666b}
 
 .footer {font-family: "Oswald", sans-serif; background-color: #4c4e51; padding: 20px; position: sticky; width: 100%; bottom: 0;}
 .footer p {font-size: 20px; color: white; text-align: center; padding: 5px;}
