@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Snap it up: My Take on the Snappy Package Manager"
+published: true
+---
+
+Note: Snappy, Snapcraft, Snaps, and the Snap Store are vastly different in their role. I do apologize for any confusion I bring upon your brains. Here's a quick rundown before I start:<br>
+    - Snap is a singular package<br>
+    - Snappy is a package manager<br>
+    - Snapcraft is the official build tool<br>
+    - The Snap Store is a store where you can download Snap, using the Snappy package manager. You can access the Snap Store through the Ubuntu Software/GNOME Software/KDiscover/some-other-GUI-app or through the command line.<br><br>
+
+Packages and package managers had made Linux fragmented, and they still do. I mean, look at the rpm and deb packages floating around with no means of automatic updating, sandboxing, different types of channels, or any of the other things that make the thing I'm going to talk about so great.
+
+Now, I know what you're thinking. Wyatt, there are a lot of alternative package managers out there like Flatpak and AppImages that have differing features than Snappy does. Yeah, you are 100% correct but they just create the same problem we had before of fragmentation so it really would be beneficial if one package manager could rise up and become the defacto package manager. Plus, they share similar, if not the same, features so it's sounds like someone's trying to scratch their own itch. More on that later. Anyways, I heavily digress. Onward!
+
+The Snappy package manager is, well, a package manager, as you've might have guessed (or not?) and is actively developed by Canonical, the creators of Ubuntu, Landscape, Juju, and countless other products in the computing space. Snappy includes a vast number of features such as sandboxing, the elimination of build infrastructure on-premises, automatic workflow, automatic updating, seamless rollback, free to open source projects, and various others I can't list here.
+
+The Snappy package manager has a centralized repository where you can download various packages that people have made using the Snapcraft build tool, which is the official tool to build Snap packages. With this tool, you can package up practically any app you can think of that's been written in any modern and popular language, like Python, Ruby, Rust, .NET Core, C/C++, Golang, Java, and others.
+
+I have been using the Snappy package manager for a couple of years now to install packages such as Discord, Spotify, Insomnia (REST client), Firefox, Mumble (VoIP client), and various standalone games such as TrackMania (which is a Windows-only game), Quake/Quake II (rewrites of both engines technically), and SuperTuxKart (a clone of the Mario Kart franchise). That's a tip of iceburg though, there's more Snap packages than the one's I've listed like Hiri (Office 365 mail client), GitKraken (git client), GNOME Twitch (GTK+ Twitch client), and more.
+
+"Snaps sound like a big deal! How do I get started??" Since the great people at Canonical that Snappy is a universal package manager, it pretty much works everywhere where the Linux kernel runs like Ubuntu, Fedora, openSUSE, Debian, Raspbian, OpenWRT, Linux Mint, Arch Linux, and several other distributions I don't know of. If you have a recent distribution like Ubuntu or Fedora, you'll be fine. Next, you have to install the Snappy package manager with your package manager. <br>
+If you have Ubuntu, it's already installed.<br>
+If you have Debian,<br>
+`sudo apt install snapd`<br>
+If you have Fedora,<br>
+`sudo dnf install snapd`<br>
+Other distributions can find instructions [here](https://docs.snapcraft.io/installing-snapd/6735).
+
+After you have the Snappy package manager installed, feel free to install any package you like that's in the Snap Store!
+
+After using Snaps for a while, I wanted to contribute and become part of the community so I started with [this](https://docs.snapcraft.io/rust-applications/7826) tutorial. I was trying to build [bat](https://github.com/sharkdp/bat), a clone of cat(1) with wings. bat features syntax highlighting, git integration, and automatic paging and, wouldn't you know it, it hasn't been packaged in the Snap Store yet! So I got on my Snappy horse and gallivanted on building this Snap of bat, a cat(1) clone with wings. Evidently, I did not succeed in building my Snap package as there is a [problem](https://github.com/rust-lang/rustup.rs/issues/945) in Rust which I have no idea if it's fixed within Rust so I may have to try again sometime. 
+
+What I discussed in the beginning of the blog post, here are my problems the current package manager situation. Since I'm intimately familiar with Ubuntu, I'm going unbiased with this discussion. I've tried both Flatpak and AppImages. Flatpaks are only available through GNOME Software (because it's funded by GNOME and it's a GNOME project) or the command line. If you don't have GNOME or a GTK desktop, you're out of luck because the command line syntax is little difficult. AppImages are great if you're more familiar with Windows software and Windows software installation but they're widely unsupported.
+
+That's my take on my Snappy package manager. Feel free to [email](mailto:wjmiller2016@gmail.com) me if you have any questions.
