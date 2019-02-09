@@ -14,8 +14,7 @@
                     <div class="main-section-about">
                         <div class="main-background">
                             <h2>Coming soon!</h2><br>
-                            <h2>My blog is coming in the near future.</h2>
-                            <h2 class="main-background-text">If you have any questions regarding the blog, <a href="mailto:wjmiller2016@gmail.com">email</a> me!</h2>
+                            <h2 class="main-background-text">If you have any questions, <a href="mailto:wjmiller2016@gmail.com">email</a> me!</h2>
                         </div>
                     </div>
                 </div>

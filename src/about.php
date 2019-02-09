@@ -14,6 +14,7 @@
                     <div class="main-section-about">
                         <div class="main-background">
                             <h2 class="main-background-text">You want to know about me?</h2><br>
+                            <h4 class="main-background-text">February 2019 - Accepted into Ferris State University</h4>
                             <h4 class="main-background-text">December 2018 - Recieved acknowedglement of being on the Dean's List (Northwestern Michigan College)</h4>
                             <h4 class="main-background-text">December 2018 - KernalPanik was started!</h4>
                             <h4 class="main-background-text">December 2018 - <a href="https://github.com/wymillerlinux/DeskHubSharp">DeskHubSharp</a> was released!</h4>
@@ -23,6 +24,7 @@
                             <h4 class="main-background-text">May 2017 - <a href="https://github.com/wymillerlinux/lftpd">lftpd</a> was released!</h4>
                             <h4 class="main-background-text">April 2017 - <a href="https://github.com/wymillerlinux/mtikrtr">mtikrtr</a> was released!</h4>
                             <h4 class="main-background-text">December 2016 - <a href="https://github.com/jtperreault/political_ties">Political Ties</a> was started!</h4>
+                            <h4 class="main-background-text">August 2016 - Accepted into Northwestern Michigan College</h4>
                             <h4 class="main-background-text">May 2016 - Graduated Kalkaska High School</h4>
                             <h4 class="main-background-text">September 2015 - Started Information Technology internship at Kalkaska High School</h4><br>
                             <p class="main-background-text">Want to see my <a href="assets/resume.pdf">resume</a>?</p>
