@@ -23,11 +23,11 @@ a:hover {color: seashell !important;}
 .footer a {color: white; text-decoration-color: white; text-decoration-line: none;}
 .footer a:hover {color: white;}
 
-.main-section {position: relative; background-size: 100%; background-image: url("tracks.jpg"); background-color: black; padding: 30px 5px;}
+.main-section {position: relative; background-size: 100%; background-image: url("assets/tracks.jpg"); background-color: black; padding: 30px 5px;}
 .main-section-about {
     position: relative;
     background-size: 100%;
-    background-image: url("tracks.jpg");
+    background-image: url("assets/tracks.jpg");
     background-color: black;
     padding: 30px 5px;
 }

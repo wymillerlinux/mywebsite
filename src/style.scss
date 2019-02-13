@@ -1,0 +1,175 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico|Kavivanar');
+
+/* Global rules */
+/* Elements */
+
+html, body, h1, h2, h3, h4, h5, h6 {}
+
+a {
+  color: white !important;
+  &:hover {
+    color: seashell !important;
+  }
+  &:hover.nav-item.nav-link {
+    background-color: #efa0a0 !important;
+    text-decoration-color: white;
+  }
+  &.nav-item.nav-link {
+    font-family: "Oswald", cursive;
+    font-size: 30px;
+  }
+}
+
+/* IDs */
+
+#twitch-embed {
+  text-align: center;
+}
+
+/* Classes */
+
+.header {
+  background-color: #4c4e51;
+}
+
+.header-title {
+  color: whitesmoke;
+  h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 72px;
+    text-align: center;
+    margin: 0;
+    padding: 35px;
+  }
+  p {
+    font-size: 10px;
+    text-align: right;
+    margin: 1px;
+    color: #63666b;
+  }
+}
+
+.footer {
+  font-family: "Oswald", sans-serif;
+  background-color: #4c4e51;
+  padding: 20px;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  a {
+    color: white;
+    text-decoration-color: white;
+    text-decoration-line: none;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.main-section, .main-section-about {
+  position: relative;
+  background-size: 100%;
+  background-image: url("assets/tracks.jpg");
+  background-color: black;
+  padding: 30px 5px;
+}
+
+.main-background {
+  border-radius: 25px;
+  padding: 25px;
+  h2 {
+    font-family: "Kavivanar", cursive;
+    position: relative;
+    font-size: 54px;
+    color: white;
+    text-align: center;
+  }
+  h3, h4 {
+    font-family: "Kavivanar", cursive;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-family: "Kavivanar", cursive;
+    position: relative;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+}
+
+.main-background-text a {
+  color: #ff9999 !important;
+}
+
+.about-background {
+  h2 {
+    position: relative;
+    font-size: 24px;
+    color: white;
+  }
+  p {
+    position: relative;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+.nav-pills .nav-link {
+  font-size: 24px;
+  background-color: #f08080 !important;
+  border-radius: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.nav-link a {
+  font-family: "Oswald", cursive;
+  font-size: 30px;
+  color: white;
+  text-decoration-color: white;
+  &:hover {
+    background-color: #efa0a0 !important;
+    text-decoration-color: white;
+  }
+}
+
+/*Media queries*/
+@media (min-width: 768px) {
+  .main-section {
+    padding: 50px 10px;
+  }
+  .main-section-about {
+    padding: 30px 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-section {
+    padding: 70px 10px;
+  }
+  .main-section-about {
+    padding: 50px 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-section {
+    padding: 124px 200px;
+    h2, h3 {
+      text-align: center;
+    }
+  }
+  .main-section-about {
+    padding: 90px 125px;
+  }
+}
