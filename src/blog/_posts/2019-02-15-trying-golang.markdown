@@ -63,4 +63,6 @@ Inside the function, I used the `"fmt"` package to print a line that says "Hello
 
 Go has flow control too, which is pretty cool but I haven't messed with a whole lot yet.
 
+The `go` command is really robust too. It has everything to the `run` command which runs your code in go, not compiled (JIT maybe?). It has the `test` command, which runs your tests if you are in TDD mode. It even has the `build` command, which Go compiles your code into binary format. This is were GOOS comes in. As a environment variable, GOOS can target whatever operating system you want to target, which could be very helpful if you are using `build` in a Makefile.
+
 Check Go out, I think you guys will really enjoy it as I am. Next, I might playing with some of [this](https://github.com/zmb3/spotify).
