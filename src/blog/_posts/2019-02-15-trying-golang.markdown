@@ -4,7 +4,7 @@ title:  "Trying out Golang (or Go, whatever you'd like to call it)"
 published: true
 ---
 
-Golang (or Go, that are interchangeable and I will use it as such) has blown up over the recent years. For example, some features piqued my interest and when say piqued, I mean it. You probably aren't as hyped about Golang as I am. I suppose it helps when you are such a nerd about back-end and server development as well.
+Golang (or Go, they are interchangeable and I will use it as such) has blown up over the recent years. For example, some features piqued my interest and when say piqued, I mean it. You probably aren't as hyped about Golang as I am. I suppose it helps when you are such a nerd about back-end and server development as well.
 
 Right! Features (a few maybe?):<br>
     * Concurrent<br>
@@ -35,7 +35,7 @@ func main(){<br>
 }<br>
 </code>
 
-Link to source [here.](https://wyattjmiller/blog/src/main.go)
+Link to source [here.](https://wyattjmiller/code/main.go)
 
 I'm back! A lot to take in, isn't there? I'm a beginner too so I will try my best to explain this to my utmost competency.
 
