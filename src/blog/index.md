@@ -7,3 +7,6 @@ layout: home
 What's happening, my fellow developers?
 
 Want to go [back to the site?](https://wyattjmiller.com)
+<br>
+<br>
+<br>
