@@ -17,6 +17,7 @@
                         <a href="https://www.linkedin.com/in/wyatt-miller-b4208a2b"><i class="fab fa-linkedin"></i></a>
                     </p>
                     <p>&copy <?php echo date("Y"); ?> Miller Web Solutions, Wyatt J. Miller - Licensed by the <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+                    <p>Hosted by <a href="https://m.do.co/c/1c8f6f501242">DigitalOcean</a></p>
                 </div>
             </div>
 </body>

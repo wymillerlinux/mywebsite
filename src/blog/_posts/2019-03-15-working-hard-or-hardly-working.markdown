@@ -4,7 +4,6 @@ title:  "Working hard or hardly working?"
 published: true
 ---
 
-
 Note that if you haven't read a previous blog post where I introduce the team and introduce the project, please go check that out!
 
 Continuing our endeavor in making the best temperature solution possible, we here at PiBake are hard at work. Everyone is doing something, whether it’s writing code for the website or fixing hardware, it sure is something that we have brewing up here.
