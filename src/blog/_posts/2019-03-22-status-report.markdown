@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Status report of PiBake!"
+published: true
+---
+
+This sprint was the one of the shorter of the five sprints, so I can’t really talk about much here except what I’m going to talk about, obviously.
+
+I setup all of the infrastructure that the team was going to use, directly or indirectly. This infrastructure included the GitHub organization, Travis CI, our continuous integration service, our production server and the SSL encryption on said server, the MySQL database for Thresa and the web frontend to MySQL, phpMyAdmin, and the system users on the server. Thus, I got thrown into the QA position.
+
+We got a temperature reader! We had a daughter board of sorts that came with the Raspberry Pi called GrovePi. The GrovePi attaches to the Pi via GPIO, taking all 40 pins of the GPIO. Then, once you have your GrovePi attached, you can then attach multiple sensors to it. In our case, we would attach the temperature sensor to it, as you might imagine. I searched the Internet for an example of how you would grab temperatures off the sensors. This where things get a little sticky, to put it bluntly.
+
+Once I first put some example code into “the software,” Chris and I got together and ran the software, sensor and GrovePi attached. This turned into a day sub-project to nearly a month sub-project because whenever I ran “the software,” “the software” gave me a negative one (-1)/IOErrors or TypeError which was very strange. Then, I found GrovePi’s GitHub page and I found some example code that was written by GrovePi so I tossed that into “the software.” Same error. Tried a different port and changed “the software” accordingly. Same error. I asked our instructor, John Velis, if he had another sensor and a whole other GrovePi entirely. He gave the extra GrovePi to me and then I was golden. Or so I thought.
+
+With trouble happening to Chris and I, I asked Chris if I could bring the Pi, the two GrovePi’s and other hardware that is needed to my house to mess with this. The same thing was happening to the other GrovePi, different ports and all. As a last ditch resort, I asked the Dexter Laboratories’ forums to see if they could give an answer. I can tell you they were a bit clueless on what was going on so I didn’t get answer from them either. By this time, I was pulling my hair out. I didn’t know what to do at this point but buy a whole other piece of hardware. Chris and I will be figuring out what hardware we need next sprint. Thus, we’ll see how it goes.
+
+Besides that, however, this was my first attempt at creating a Python package, which was interesting and with creating a Python package, Travis CI allows a user to deploy to PyPI, which is Python’s package index, which all packages can be installed with pip. Pip is a little command line utility that lets you install Python packages into a local environment and should be installed on anything that has Python installed because without it, manually installing packages would a nightmare. I messed around with Travis CI and PyPI a bit to see how deployment works. I also learned that that Travis CI required a YAML file in my reposo learned how to craft a YAML file from scratch. YAML is kind of like Python in that YAML uses indentation instead of curly braces to make YAML work, which is pretty cool. To be completely honest, I like forced indentation because it forces you to make your code look pretty and human readable.
