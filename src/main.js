@@ -1,8 +1,8 @@
 /*
 main.js, for all global functions throughout the site
-Created by Wyatt J. Miller, published by Entourage Solutions
+Created by Wyatt J. Miller, published by Miller Web Solutions
 
-Hey there, nice to see you! There's nothing here so why don't you fuck off??
+Hey there, nice to see you!
 */  
 
 var elTime = document.getElementById("time");
