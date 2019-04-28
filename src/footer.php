@@ -16,7 +16,8 @@
                         <a href="https://github.com/wymillerlinux"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/wyatt-miller-b4208a2b"><i class="fab fa-linkedin"></i></a>
                     </p>
-                    <p>&copy <?php echo date("Y"); ?> Miller Web Solutions, Wyatt J. Miller - Licensed by the <a href="https://opensource.org/licenses/MIT">MIT</a>  |  Hosted by <a href="https://m.do.co/c/1c8f6f501242">DigitalOcean</a></p>
+                    <p>&copy <?php echo date("Y"); ?> Miller Web Solutions, Wyatt J. Miller - Licensed by the <a href="https://opensource.org/licenses/MIT">MIT</a>
+                    <p>Hosted by <a href="https://m.do.co/c/1c8f6f501242">DigitalOcean</a></p>
                 </div>
             </div>
 </body>
