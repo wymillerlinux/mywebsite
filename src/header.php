@@ -12,7 +12,7 @@
         <div class="header">
             <div class="header-title">
                 <h1>Wyatt J. Miller</h1>
-                <p>version 1.2.7 "Velvet Thunder"</p>
+                <p>version 1.2.7 "Simon and Balthazar"</p>
             </div>
             <nav class="nav nav-pills nav-justified">
                 <a class="nav-item nav-link" href="/">Home</a>
