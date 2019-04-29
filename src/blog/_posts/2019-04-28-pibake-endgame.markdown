@@ -4,7 +4,7 @@ title:  "PiBake: Endgame"
 published: true
 ---
 
-In the spirit of Avengers: Endgame coming two days after this blog post, I thought I should homage to it's titular name. I haven't seen Endgame yet so if you see me and you have seen Endgame, please, do not spoil it for me.
+In the spirit of Avengers: Endgame coming two days after this blog post, I thought I should homage to it's title. I haven't seen Endgame yet so if you see me and you have seen Endgame, please, do not spoil it for me.
 
 Anywho, we are done, apparently. And so is this blog post.
 
