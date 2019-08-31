@@ -17,7 +17,7 @@
                             <div class="main-background">
                                 <h2 id="time"></h2>
                                 <p class="main-background-text">I write code. I do some other cool stuff too.</p><br>
-                                <p class="main-background-text">There's nothing much here except my <a href="https://github.com/pibake/PiBakeSoftware" target="_blank">latest project</a> that I worked on. I worked on a team in an effort to read temperatures of a Raspberry Pi, store them in a serialized format, send up the temperatures to our server, and consume them using our custom online dashboard. You can find more about how the project is going on my <a href="https://wyattjmiller.com/blog/_site/">blog!</a></p>
+                                <p class="main-background-text">Currently, I'm working on a project that will SSH into a set number of computers and gather logs for you. That project is primarily written in Go, which is my first project in that language! You can find more about how the project is going on my <a href="https://wyattjmiller.com/blog/_site/">blog!</a></p>
                                 <!--p class="main-background-text"></p-->
                             </div>
                         </div>
