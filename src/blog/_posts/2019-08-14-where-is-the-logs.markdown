@@ -25,3 +25,5 @@ What happens to that configuration file is it gets deserialized into a structure
 Things I have planned for Logman is pretty small but I'm sure I have more ideas if I mull it over. As I have stated before, one item I want to have done ASAP is having the configuration file dictate what log file you would want to fetch from the host machines. Another item is I want to allow proper SSH key support as well as passwordless SSH sessions along with bypassing keys altogether. Maybe in the future, I will scrap that last bit of bypassing keys but that item is still in the planning stages. The last item I have on my todo list is to allow fetching of multiple log files. I want this item in place so you won't have to run Logman multiple times whenever you want log files.
 
 Logman is still in early days but I will continue my quest to develop Logman whenever I get the chance.
+
+EDIT: logman is on [GitHub](https://github.com/wymillerlinux/logman)
