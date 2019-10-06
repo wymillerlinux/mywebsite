@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Loving Powershell"
+published: true
+---
+
+This is kind of an awkward post isn't it? Knowing I'm not too fond of Microsoft's products makes this a weird post, for me anyways. Not too fond of Windows, not too found of Office, not too fond of Edge, not too fond of Azure. I have tried them all. There are better products and programs out there, waiting to be explored. *AHEM* Right, Powershell!
+
+Throughout my college career, I had to learn .NET and the C# programming language, as opposed to most college students having to learn Java. Although very similar, .NET is made by Microsoft and Java is made by Oracle. Just my luck. Better yet, .NET was already driven towards Microsoft products like Windows so there's no cross platform capability with any other platform, like macOS or Linux. Even with .NET Core had been released, my instructors were dead set on using the legacy .NET Framework. Back then, I wish I had learned Java. Until now.
+
+When I was at work one day, I was tasked with creating a Powershell script. Since Windows administrators were going to use it, it made sense why we chose this language. However, I really didn't know any Powershell other than the time we used a little bit of Powershell in my web development courses. Nevertheless, I was excited to learn another scripting language as another language will be another tool in my tool belt. Besides, the script was going to be short and concise, what could go wrong? Right? Although the script drug on and on, I discovered something up Powershell's sleeve.
+
+You could use the .NET Framework inside your Powershell scripts. Knowing that I could use something that college actually taught me, I was ecstatic. Since I didn't know how write file paths in a reasonable way, I went looking around to see some examples some people had put together. Low and behold, I saw an example that had some .NET in it. Being Powershell is a Microsoft product, it made sense that .NET could live inside a Powershell script. 
+
+For example, you could use `System.Math` namespace in Powershell:<br>
+`[System.Math]::Sqrt(36)`
+
+to get the result `6`.
+
+Want to read all the text in a file?<br>
+`[System.IO.File]::ReadAllText('hello.txt')`
+
+Isn't that pretty cool??
+
+Am I now a Microsoft fanboy, knowing that opportunity is possible? Not exactly. There are still some problems with Windows, Office, Edge, and Azure that I'm not willing to switch to them quite yet. However, I'm getting happier with .NET and with their recently released Core 3.0, my mind has much to dive into.
