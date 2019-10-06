@@ -16,7 +16,7 @@
                         <div class="main-section">
                             <div class="main-background">
                                 <h2 id="time"></h2>
-                                <p class="main-background-text">I write code. I do some other cool stuff too.</p><br>
+                                <p class="main-background-text">I design and develop software for everyone.</p><br>
                                 <p class="main-background-text">Currently, I'm working on a project that will SSH into a set number of computers and gather logs for you. That project is primarily written in Go, which is my first project in that language! You can find more about how the project is going on my <a href="https://wyattjmiller.com/blog/_site/">blog!</a></p>
                                 <!--p class="main-background-text"></p-->
                             </div>
