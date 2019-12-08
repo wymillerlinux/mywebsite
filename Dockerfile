@@ -6,6 +6,11 @@
 # Just remember when linking files in code, follow the method below.
 
 FROM php:7.3.10-apache
+
+RUN a2enmod rewrite
+RUN service apache2 restart
+
 # RUN /bin/bash -c "cd /var/www/html && mkdir assets && mkdir css && mkdir img && mkdir webfonts"
 COPY src/ /var/www/html
+
 EXPOSE 80
