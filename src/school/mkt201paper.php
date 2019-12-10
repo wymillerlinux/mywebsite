@@ -1,4 +1,4 @@
 <?
-$url = "https://wyattjmiller.com/assets/W.Miller_MarketingPaper_v3.docx";
+$url = "https://drive.google.com/file/d/1IARy1FVOkEpLt3SXK0kFK5egIWpx5glJ/view?usp=sharing";
 header("Location: " . $url);
 ?>
