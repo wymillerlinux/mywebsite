@@ -1,6 +1,6 @@
 /* 
 Twitch player for my personal site
-Created by Wyatt J. Miller, published by Entourage Solutions
+Created by Wyatt J. Miller, published by Miller Web Solutions
 Made possible by the folks at Twitch, thanks guys ;)
 Licensed by the MIT
 */

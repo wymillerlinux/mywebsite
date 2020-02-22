@@ -1,6 +1,6 @@
 {
     "name": "wyatt/my-website",
-    "description": "A personal website for Wyatt J. Millrt",
+    "description": "A personal website for Wyatt J. Miller",
     "type": "project",
     "require": {
         "squizlabs/php_codesniffer": "^3.2"
